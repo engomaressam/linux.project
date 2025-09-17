@@ -1,0 +1,4 @@
+# [TASK 2]
+echo "Values of variables:"
+echo "targetDirectory = $targetDirectory"
+echo "destinationDirectory = $destinationDirectory"

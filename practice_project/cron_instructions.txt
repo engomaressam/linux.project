@@ -1,0 +1,22 @@
+Run this inside WSL (Ubuntu) to schedule daily run at noon Casablanca time:
+
+1) Ensure cron is installed and running:
+   sudo apt update && sudo apt install -y cron
+   sudo service cron enable || true
+   sudo service cron start
+
+2) Ensure jq is installed for JSON parsing:
+   sudo apt install -y jq
+
+3) Edit your crontab:
+   crontab -e
+
+4) Add this line (adjust the path if different):
+   TZ=Africa/Casablanca
+   0 12 * * * /mnt/c/Users/Diaa/linux.project/rx_poc.sh >> /mnt/c/Users/Diaa/linux.project/rx_poc_cron.log 2>&1
+
+Notes:
+- The TZ line sets timezone for subsequent cron entries.
+- Verify after a couple of days that rx_poc.log has new rows each day.
+
+

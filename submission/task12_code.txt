@@ -1,0 +1,2 @@
+# [TASK 12]
+tar -czf $backupFileName ${toBackup[@]}

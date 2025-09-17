@@ -1,0 +1,2 @@
+  # [TASK 10]
+  if [[ `date -r $file +%s` -gt $yesterdayTS ]]

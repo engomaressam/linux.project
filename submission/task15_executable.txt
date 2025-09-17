@@ -1,0 +1,1 @@
+-rwxr-xr-x    1 root     root          1432 Sep 17 16:37 backup.sh

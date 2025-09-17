@@ -1,0 +1,2 @@
+# [TASK 8]
+yesterdayTS=$(($currentTS - 24*60*60))

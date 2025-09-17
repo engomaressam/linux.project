@@ -1,0 +1,4 @@
+  then
+    # [TASK 11]
+    toBackup+=($file)
+  fi

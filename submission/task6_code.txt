@@ -1,0 +1,3 @@
+# [TASK 6]
+cd "$destinationDirectory" || exit
+destAbsPath=$(pwd)
